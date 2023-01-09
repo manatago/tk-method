@@ -1,11 +1,13 @@
+.trigolist{
+    margin: 30px 0;
+    padding: 20px;
+}
 
 .trigolist:nth-child(2n+1){
     background: linear-gradient(90deg,#80000088,#800000ff);
-    margin-bottom: 30px;
 }
 .trigolist:nth-child(2n){
     background: linear-gradient(90deg,#800000ff,#80000088);
-    margin-bottom: 30px;
 }
 .trigolist>h2,.trigolist>p{
     max-width:1200px;
@@ -42,6 +44,7 @@
     background-size: 100% 200px;
     background-repeat:no-repeat;
     padding-top: 200px;
+    
 }
 .trigolist>ul>li>h3{
     color:white;
@@ -63,7 +66,7 @@
     }
     .trigolist>ul>li{
         background-size: 100% 180px;
-       
+        
     }
 }
     

@@ -1,0 +1,9 @@
+.feature>ul>li:nth-child(1){
+    background-image:url(../../img/feature/pro_teacher.jpg);
+}
+.feature>ul>li:nth-child(2){
+    background-image:url(../../img/feature/tokyo_u.jpg);
+}
+.feature>ul>li:nth-child(3){
+    background-image:url(../../img/feature/remote.jpg);
+}
