@@ -7,15 +7,29 @@ header {
     background-size: cover;
     background-position: top center;
     background-repeat:no-repeat;
-    padding-top: 200px;
+    padding-top: 20px;
     padding-bottom: 80px;
 }
 
 header h1{
+    width: 1200px;
+    margin: 0 auto;
+}
+header h1 >div{
+    width: 600px;
+    background-color:#80000088;
+    border-radius: 10px;
+    padding: 20px;
+    color:gold;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+header h2{
     color: maroon;
     font-size: 40px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 200px auto 0;
     font-weight: bold;
     display: flex;
     flex-direction: column;
