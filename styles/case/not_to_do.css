@@ -1,9 +1,0 @@
-.not_to_do>ul>li:nth-child(1){
-    background-image:url(../../img/not_to_do/visit.jpg);
-}
-.not_to_do>ul>li:nth-child(2){
-    background-image:url(../../img/not_to_do/sankousho.jpg);
-}
-.not_to_do>ul>li:nth-child(3){
-    background-image:url(../../img/not_to_do/angry.jpg);
-}
