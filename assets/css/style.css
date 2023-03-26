@@ -579,3 +579,8 @@ footer {
   height: 20px;
 }
 }
+
+/*追記*/
+li > ol > li{
+  margin-left:1em;
+}
