@@ -584,3 +584,31 @@ footer {
 li > ol > li{
   margin-left:1em;
 }
+
+.free_taiken{
+  max-width: 820px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.free_taiken > a{
+  background: linear-gradient(to bottom, #ff9300, #d46a00);
+  padding: 20px;
+  border-radius: 10px;
+  color:white;
+  font-size: 2rem;
+  font-weight:bold;
+}
+
+.jisseki{
+  font-size: 12px;
+  font-weight:bold;
+  background-color: #f5f5f580;
+  display:block;
+  margin-left: auto;
+  max-width: 400px;
+}
+
+
+
+
+
