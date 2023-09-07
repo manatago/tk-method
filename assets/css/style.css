@@ -617,6 +617,16 @@ li > ol > li{
   font-size: 20px;
 }
 
+@media screen and (max-width: 800px){
+  .free_taiken > a{
+    font-size: 3rem;
+    padding: 10px;
+  }
+  .free_taiken > p{
+    font-size: 16px;
+  }
+}
+
 .jisseki{
   margin-top: 30px;
   font-size: 16px;
@@ -660,13 +670,36 @@ li > ol > li{
   text-align: right;
   vertical-align: middle;
 }
-.fee_table tbody tr td:nth-child(2){
+.fee_table_big tbody tr td:nth-child(2){
   background-color:lightpink;
   font-weight: bold;
   font-size: 18px;
 }
+.fee_table_small tbody tr:nth-child(1) td:nth-child(n+2){
+  background-color:lightpink;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .fee_table td{
   width: 100px;
+}
+
+.fee_table_small{
+  width: 95%;
+  margin:0 auto;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 800px){
+  .fee_table_big{
+    display:none;
+  }
+}
+@media screen and (min-width: 800px){
+  .fee_table_small{
+    display:none;
+  }
 }
 
 
