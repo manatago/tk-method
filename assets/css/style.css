@@ -695,10 +695,16 @@ li > ol > li{
   .fee_table_big{
     display:none;
   }
+  .fee_table_small{
+    display:block;
+  }
 }
 @media screen and (min-width: 800px){
   .fee_table_small{
     display:none;
+  }
+  .fee_table_big{
+    display:block;
   }
 }
 
