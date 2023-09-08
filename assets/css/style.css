@@ -681,15 +681,24 @@ li > ol > li{
   font-size: 18px;
 }
 
-.fee_table td{
-  width: 100px;
+.fee_table_big td{
+  width: 200px;
 }
+.fee_table_big tbody tr th:nth-child(1){
+  width: 200px;
+} 
+
 
 .fee_table_small{
   width: 95%;
   margin:0 auto;
   margin-bottom: 50px;
 }
+
+.fee_table_small td{
+  width: 200px;
+}
+
 
 @media screen and (max-width: 800px){
   .fee_table_big{
