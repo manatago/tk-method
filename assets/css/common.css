@@ -39,3 +39,9 @@ a img:hover {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
+
+.contact_form{
+  height: 1800px;
+  width: 100%;
+}
