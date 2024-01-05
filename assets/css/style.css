@@ -58,9 +58,16 @@ header .header__top__wrap a.btn:hover {
 header .header__main__wrap {
   background: center center / cover url(../img/0000.jpg) no-repeat;
   font-weight: 700;
-  margin-top: 70px;
+  margin-top: 120px;
   padding: 8em 5%;
 }
+
+@media screen and (max-width: 576px){
+  header .header__main__wrap {
+    margin-top: 192px;
+  }
+}
+
 header .header__main {
   margin: auto;
   max-width: 1000px;
@@ -785,3 +792,40 @@ div.message{
 
 } */
 
+nav ul li a{
+  color: white !important;
+  padding: 0 5px;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav ul li:after{
+  content: '/';
+  color:white;
+}
+/* nav ul li:before{
+  content: '[';
+  color:white;
+} */
+
+
+h3{
+  display: block;
+  padding-top: 150px;
+  margin-top: -150px;
+}
+
+@media screen and ( max-width: 576px ){
+  h3{
+    padding-top: 195px;
+    margin-top: -195px; 
+  }
+  header nav ul li a{
+    font-size: 12px;
+  }
+}
