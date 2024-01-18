@@ -58,13 +58,13 @@ header .header__top__wrap a.btn:hover {
 header .header__main__wrap {
   background: center center / cover url(../img/0000.jpg) no-repeat;
   font-weight: 700;
-  margin-top: 120px;
+  margin-top: 70px;
   padding: 8em 5%;
 }
 
 @media screen and (max-width: 576px){
   header .header__main__wrap {
-    margin-top: 192px;
+    margin-top: 90px;
   }
 }
 
@@ -744,6 +744,7 @@ li > ol > li{
 div.message{
   max-width: 400px;
   margin-left: auto;
+  margin-top: 30px;
 }
 
 
@@ -828,4 +829,8 @@ h3{
   header nav ul li a{
     font-size: 12px;
   }
+}
+
+#one_team{
+  height: 200px;
 }
