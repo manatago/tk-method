@@ -110,4 +110,8 @@ a img:hover {
   .header_menu{
     gap: 12px;
   }
+  .success_method_section{
+    padding-top: 0;
+  }
+
 }
