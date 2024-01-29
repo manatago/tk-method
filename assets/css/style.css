@@ -817,14 +817,14 @@ nav ul li:after{
 
 h3{
   display: block;
-  padding-top: 150px;
-  margin-top: -150px;
+  /* padding-top: 150px;
+  margin-top: -150px; */
 }
 
 @media screen and ( max-width: 576px ){
   h3{
-    padding-top: 195px;
-    margin-top: -195px; 
+    /* padding-top: 195px;
+    margin-top: -195px;  */
   }
   header nav ul li a{
     font-size: 12px;
@@ -834,3 +834,4 @@ h3{
 #one_team{
   height: 200px;
 }
+

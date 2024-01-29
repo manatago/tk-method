@@ -52,5 +52,44 @@ a img:hover {
   border: solid 0.5px #ccc;
 }
 .mondai_pic{
-  height: 220px;
+  /* height: 220px; */
+}
+
+.header_menu{
+  display:flex;
+  justify-content:center;
+}
+@media screen and (max-width: 578px) {
+  .header_menu{
+    flex-wrap: wrap;
+  }
+}
+
+.header_menu li a{
+  color:white;
+  display:block;
+  padding: 0px 10px;
+}
+@media screen and (max-width: 578px) {
+  .header_menu li a{
+    padding: 0px 2px;
+  }
+}
+
+
+.header_menu li a:hover{
+  background-color: #f8f8f8;
+  color: #222;
+}
+.header_menu li{
+  border-left: solid 1px #ccc;
+}
+/* @media screen and (max-width: 578px) {
+  .header_menu li{
+    border-left: none;
+  }
+} */
+
+.header_menu li:first-child{
+  border-left: none;
 }
