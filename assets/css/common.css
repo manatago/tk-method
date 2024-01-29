@@ -66,7 +66,8 @@ a img:hover {
 }
 
 .header_menu li a{
-  color:white;
+  color: #444;
+  font-weight: bold;
   display:block;
   padding: 0px 10px;
 }
@@ -78,18 +79,35 @@ a img:hover {
 
 
 .header_menu li a:hover{
-  background-color: #f8f8f8;
-  color: #222;
+  /* background-color: #f8f8f8; */
+  color: #950417;
 }
-.header_menu li{
+/* .header_menu li{
   border-left: solid 1px #ccc;
-}
+} */
 /* @media screen and (max-width: 578px) {
   .header_menu li{
     border-left: none;
   }
 } */
 
-.header_menu li:first-child{
+/* .header_menu li:first-child{
   border-left: none;
+} */
+
+.header_menu_wrapper{
+  background-color:#e5e5e5;
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 578px) {
+  section{
+    padding-top: 30px;
+  }
+  .header_menu li a{
+    font-size: 12px;
+  }
+  .header_menu{
+    gap: 12px;
+  }
 }
